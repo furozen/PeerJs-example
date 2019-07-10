@@ -1,6 +1,8 @@
 
 import { Component } from '@angular/core';
-import * as Peer from 'peerjs';
+import Peer = require('peerjs');
+
+
 
 @Component({
   selector: 'app-root',
