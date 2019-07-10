@@ -1,5 +1,32 @@
 # PeerJsExample
 
+now it show bug on compilation and in runtime:
+
+on compilation:
+
+```
+WARNING in ./node_modules/peerjs/dist/peerjs.min.js 1:292-296
+Critical dependency: the request of a dependency is an expression
+```
+
+in runtime:
+
+```
+Uncaught ReferenceError: parcelRequire is not defined
+    at push../node_modules/peerjs/dist/peerjs.min.js.parcelRequire.vHo1 (peerjs.min.js:1)
+    at Object../node_modules/peerjs/dist/peerjs.min.js (peerjs.min.js:1)
+    at __webpack_require__ (bootstrap:79)
+    at Module../src/app/app.component.ts (main.js:112)
+    at __webpack_require__ (bootstrap:79)
+    at Module../src/app/app.module.ts (app.component.ts:10)
+    at __webpack_require__ (bootstrap:79)
+    at Module../src/main.ts (main.ts:1)
+    at __webpack_require__ (bootstrap:79)
+    at Object.0 (main.ts:12)
+```
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
 ## Development server
