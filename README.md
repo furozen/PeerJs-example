@@ -29,6 +29,7 @@ Uncaught ReferenceError: parcelRequire is not defined
 Attempts of various import methods:
 
 #1
+
 ```
 import * as Peer from 'peerjs';
 ```

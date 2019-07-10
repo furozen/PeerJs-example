@@ -1,6 +1,6 @@
 
 import { Component } from '@angular/core';
-import Peer = require('peerjs');
+import Peer from "peerjs";
 
 
 
